@@ -2,8 +2,12 @@
   "name": "boilerplate",
   "version": "1.0.0",
   "main": "index.html",
+  "script" : {
+    "start": "node server.js"
+  },
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.15.3",
     "express": "4",
     "react": "0.14.7",
     "react-dom": "0.14.7",
