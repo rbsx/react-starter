@@ -8,3 +8,38 @@ $title-color: #2199e8;
 input[type=search] {
   box-shadow: none;
 }
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.resulted-message {
+  box-sizing: border-box;
+
+  div {
+    font-family: 'Helvetica Neue','Helvetica','Roboto','Arial',sans-serif;;
+    font-size: 1rem;
+    color: white;
+    padding: $space-large 10px;
+  }
+}
+
+.ice {
+  background-color: #0081d6;
+}
+
+.cold {
+  background-color: #2199e8;
+}
+
+.middle {
+  background-color: #eacb00;
+}
+
+.warm {
+  background-color: #ffb900;
+}
+
+.hot {
+  background-color: #ff6700;
+}
